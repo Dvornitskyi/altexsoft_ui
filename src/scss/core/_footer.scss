@@ -1,0 +1,138 @@
+.footer {
+  max-width: 1200px;
+  height: 380px;
+  background: #313131;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  &__section {
+    width: 961px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  &__first-collum {
+    width: 226px;
+    height: 264px;
+  }
+  .footer__title {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  &__hr {
+    background-color: #3a3a3a;
+    color: #3a3a3a;
+    border: none;
+    opacity: 11;
+    height: 2px;
+    border: 0px solid #3a3a3a;
+    // margin-bottom: 20px;
+  }
+  &__first-first-list {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  &__first-text {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  &__first-link {
+    color: #a7c353;
+    font-size: 12px;
+  }
+  &__first-second-list {
+    margin-bottom: 20px;
+  }
+  &__second-collum {
+    width: 226px;
+    height: 251px;
+  }
+  &__second-area {
+    margin-top: 12px;
+  }
+  &__second-icon {
+    border: 8px solid #383838;
+    border-radius: 50%;
+    background-color: #383838;
+    color: #ffffff;
+    margin-bottom: 6px;
+  }
+  &__second-link {
+    color: #a7c353;
+    font-size: 12px;
+    margin-left: 11px;
+  }
+  &__third-collum {
+    width: 226px;
+    height: 307px;
+  }
+
+  &__third-subtitle {
+    color: #999999;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+  &__third-text {
+    color: #999999;
+    font-size: 11px;
+    margin-bottom: 7px;
+  }
+  &__third-subtext {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  &__third-link {
+    color: #a7c353;
+    font-size: 12px;
+    margin-left: 155px;
+  }
+  &__fourth-collum {
+    width: 226px;
+    height: 284px;
+  }
+  &__fourth-name {
+    margin-top: 20px;
+    background-color: #383838;
+    width: 226px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  &__fourth-email {
+    background-color: #383838;
+    width: 226px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  &__fourth-message {
+    background-color: #383838;
+    width: 226px;
+    height: 111px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+  }
+  &__fourth-submit {
+    background-color: #a7c353;
+    width: 81px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}

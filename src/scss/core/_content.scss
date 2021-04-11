@@ -1,0 +1,135 @@
+.content {
+  max-width: 1200px;
+  height: 510px;
+  background: #313131;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  &__section {
+    width: 961px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__section-text {
+    width: 920px;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 43px;
+  }
+  &__first-column {
+    width: 283px;
+    height: 428px;
+  }
+  &__first-title {
+    margin-bottom: 25px;
+    color: #666666;
+    font-size: 22px;
+  }
+  &__first-column-image-area {
+    width: 281px;
+    height: 151px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__first-column-image {
+    width: 270px;
+    height: 140px;
+  }
+  &__text-colum {
+    font-size: 13px;
+    color: #999999;
+  }
+  .first-colum-text-first {
+    margin-bottom: 30px;
+  }
+  .first-colum-text-two {
+  }
+  &__link-first-column {
+    margin-top: 30px;
+    margin-left: 145px;
+    color: #a7c353;
+    font-size: 13px;
+  }
+  &__second-column {
+    width: 282px;
+    height: 428px;
+  }
+  &__second-title {
+    color: #666666;
+    font-size: 22px;
+    margin-bottom: 28px;
+  }
+  &__second-one {
+    width: 270px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  &__second-one-image {
+    width: 64px;
+    height: 64px;
+  }
+  &__second-one-area {
+  }
+  &__second-one-title {
+    width: 92px;
+    height: 11px;
+    font-size: 14px;
+    color: #878787;
+    margin-bottom: 13px;
+  }
+  &__second-one-text {
+    width: 175px;
+    height: 47px;
+    font-size: 13px;
+    color: #868686;
+  }
+  &__second-link {
+    margin-top: -60px;
+    margin-left: 120px;
+    font-size: 13px;
+    color: #a7c353;
+  }
+  &__third-column {
+    width: 282px;
+    height: 428px;
+  }
+  &__third-title {
+    color: #666666;
+    font-size: 22px;
+    margin-bottom: 23px;
+  }
+  &__third-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &__third-image {
+    width: 45px;
+    height: 54px;
+  }
+  &__third-tittle-text {
+    font-size: 16px;
+    color: #989898;
+    margin-left: 10px;
+  }
+  &__third-text {
+    width: 273px;
+    height: 92px;
+    font-size: 13px;
+    color: #888888;
+  }
+  &__third-link {
+    margin-left: 160px;
+    color: #a7c353;
+    font-size: 13px;
+  }
+}
