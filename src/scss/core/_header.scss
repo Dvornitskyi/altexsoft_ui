@@ -1,5 +1,6 @@
 .header {
   max-width: 1200px;
+  width: 100%;
   height: 102px;
   background: #313131;
   display: flex;
@@ -62,5 +63,47 @@
   }
   &__menu-around:hover .header__menu-link {
     color: #ffffff;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    overflow: hidden;
+    overflow-x: hidden;
+    max-width: 500px;
+    height: 102px;
+    background: #313131;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    &__section {
+      width: 300px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 6px solid #a7c353;
+    }
+    &__section-text {
+      width: 300px;
+      height: 99px;
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      border-bottom: 2px solid #a7c353;
+    }
+    &__logo {
+      display: none;
+    }
+    &__menu {
+      width: 300px;
+      height: 99px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__menu-around {
+      width: 100px;
+      height: 33px;
+    }
   }
 }

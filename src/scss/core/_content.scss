@@ -133,3 +133,31 @@
     font-size: 13px;
   }
 }
+@media (max-width: 500px) {
+  .content {
+    overflow: hidden;
+    overflow-x: hidden;
+    max-width: 500px;
+    height: 1600px;
+    background: #313131;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    &__section {
+      width: 300px;
+      background: #ffffff;
+      display: flex;
+      // align-items: center;
+      justify-content: center;
+    }
+    &__section-text {
+      width: 300px;
+      height: 1510px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+      // padding-top: 43px;
+    }
+  }
+}

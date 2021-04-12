@@ -100,3 +100,9 @@
   background-color: purple;
   transition: 1s;
 }
+
+@media (max-width: 1000px) {
+  .slider {
+    display: none;
+  }
+}
