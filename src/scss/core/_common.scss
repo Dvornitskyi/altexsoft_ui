@@ -18,7 +18,8 @@ ul {
   list-style: none;
 }
 
-a, button {
+a,
+button {
   background-color: transparent;
   border: none;
   outline: none;
@@ -26,3 +27,13 @@ a, button {
   text-decoration: none;
 }
 
+a:hover,
+input:hover {
+  color: purple;
+  transition: 1s;
+}
+a:active,
+input:active {
+  color: yellow;
+  transition: 1s;
+}

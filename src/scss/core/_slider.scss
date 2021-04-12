@@ -87,7 +87,16 @@
   border: 3px solid #a7c353 !important;
   border-radius: 50%;
   background: #a7c353 !important;
+  margin-right: 3px;
 }
 .owl-dot.active {
   background: none !important;
+}
+.owl-dot:hover {
+  border: 3px solid purple !important;
+  transition: 1s;
+}
+.nav-bg:hover {
+  background-color: purple;
+  transition: 1s;
 }
