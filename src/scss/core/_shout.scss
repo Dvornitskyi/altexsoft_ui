@@ -7,14 +7,16 @@
   justify-content: center;
   margin: 0 auto 0 auto;
   &__section {
-    width: 961px;
+    max-width: 1200px;
+    width: 96.666%;
     background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   &__section-text {
-    width: 920px;
+    max-width: 1200px;
+    width: 96.666%;
     height: 135px;
     display: flex;
     align-items: center;

@@ -27,13 +27,21 @@ button {
   text-decoration: none;
 }
 
+textarea:hover,
 a:hover,
 input:hover {
   color: purple;
   transition: 1s;
 }
+textarea:active,
 a:active,
 input:active {
   color: yellow;
   transition: 1s;
+}
+input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
 }
